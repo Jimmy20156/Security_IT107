@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-size: 1.1rem;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    padding: 10px 5px;
+}
+
+main {
+    position: relative;
+    /* background-color: rgb(53, 131, 241); */
+    background: linear-gradient( lightblue, blue );
+    padding: 10% 10px;
+}
+
+.image_test {
+    background-color: green;
+    min-width: 800px;
+    min-height:450px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.hero {
+    display: flex;
+    color: #ffff;
+    padding: 0 10%;
+}
+
+
+
+.hero h1 {
+    font-size: 2.8em;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+
+/*  */
+header .options {
+    flex: 1;
+}
+header .options select{
+
+    border: none;
+    margin: 5px 5%;
+}
