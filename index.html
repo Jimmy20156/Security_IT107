@@ -9,19 +9,21 @@
 </head>
 <body>
     <header>
-        Logo
-    </header>
-    <nav>
+        <span>Logo</span>
+         <nav>
         <div class="links">
             <a href="">Home</a>
             <a href="">About</a>
             <a href="">Contact</a>
         </div>
-        <div>
-            <button>Login</button>
-            <button>Sign Up</button>
-        </div>
+        
     </nav>
+    <div>
+            <button onclick="window.location.href = 'login.html';">Login</button>
+            <button onclick="window.location.href = 'signup.html';">Sign Up</button>
+        </div>
+    </header>
+   
     <main>
         <div class="hero">
             <div>
@@ -29,14 +31,36 @@
                 <p>Eadfldkjfkldaslfadjslfjadskdf fjdafdsajk  afasfadshasdjkasdklahjkh</p>
                 <button>Talk to expert</button>
             </div>
-            <div>content right</div>
+            <div><img src="images/lockscreen_img.jpg" alt="hero image" style="width: 100%; height: auto;"></div>
         </div>
-        <div>
-
+        <div style="padding: 10%;">
+            safasdfasdflkasdjfdasjf <br>
+            adfasdfsad <br>
+            fsadfasdfsadfasdfasdf <br>
         </div>
     </main>
     <footer>
-        <p>&copy; 2025 Your Website. All rights reserved.</p>
+        <div>&copy; 2025 Your Website. All rights reserved.</div>
+        <br>
+        <div style="display: flex; gap: 3rem;">
+            <div style="flex: 1; text-align: right;">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div style="flex: 1; text-align: left; line-height: 2.5rem;">
+                <h3>Company Information</h3>
+                <p>
+                    Address: 123 Main Street <br>
+                    Phone: 123-456-7890 <br>
+                    Email: <a href="mailto:info@yourwebsite.com">info@yourwebsite.com</a>
+                </p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

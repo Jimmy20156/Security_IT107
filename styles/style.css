@@ -12,41 +12,56 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5%;
-    background-color: #4e54c8;
+    padding: 5px 5%;
+    /* background-color: #6c73ff; */
+    background: linear-gradient(135deg, #4e54c8, #8f94fb);
     color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
 nav {
+    background-color: none;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 5%;
-    color: #fff;
+    justify-content: center;
+    align-content: center;
 }
 
 nav a {
     text-decoration: none;
-    margin: 0 30px;
+    margin-right: 30px;
+    color: #fff;
+
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #21f0f0;
 }
 
 footer {
+    text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 5%;
-    background-color: #4e54c8;
-    color: #fff;
+    flex-direction: column;
+    padding: 50px 5%;
+    background: linear-gradient(15deg, #4e54c8 50%,#b8bcfd);
+    color: #ebebeb;
+    align-content: center;
+     font-size: larger;
 }
 
 .hero {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 30px 5%;
-    background-color: #4e54c8;
+    /* background-color: #4e54c8; */
+    background: linear-gradient(15deg, #4e54c8, #b8bcfd);
+
     color: #fff;
-    height: 300px;
 }
 
 .hero div {
@@ -58,21 +73,62 @@ footer {
 }
 
 .hero div:nth-child(2) {
-    background-color: #8f94fb;
     border-radius: 7px;
-    text-align: center;
+    min-width: 300px;
+    min-height: 300px;
+    flex: 1;
 }
 /*  */
 
 button {
     padding: 7px 16px;
-    background-color: #9c9fda;
+    background-color: transparent;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+button:first-child {
+    color: #11144b;
+    border: 1px solid #d6d6d6;
+}
+
+button:first-child:hover {
+    background-color: #d6d6d6;
 }
 
 button:nth-child(2) {
+    background-color: #1f3c72;
+}
+
+button:nth-child(2):hover {
     background-color: #4e54c8;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    display: block;
+    justify-self: end;
+    width: fit-content;
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+ul li a:hover {
+    color: #21f0f0;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
 }
