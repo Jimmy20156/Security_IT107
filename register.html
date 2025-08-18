@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/register.css">
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+       
+
+
+<form class="registration-form" action="" method="">
+    <h2 class="form-title">Registration</h2>
+
+  <!-- Name Section -->
+  <div class="form-row">
+    <div class="input-box">
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required>
+    </div>
+    <div class="input-box">
+      <label for="middleName">Middle Name</label>
+      <input type="text" id="middleName" name="middleName" placeholder="Enter Middle Name">
+    </div>
+    <div class="input-box">
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name" required>
+    </div>
+    <div class="input-box">
+      <label for="extensionName">Extension Name</label>
+      <input type="text" id="extensionName" name="extensionName" placeholder="Jr., Sr., III">
+    </div>
+  </div>
+
+  <!-- Other Personal Info -->
+  <div class="form-row">
+    <div class="input-box">
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" min="1" max="120" placeholder="Enter Age" required>
+    </div>
+    <div class="input-box">
+      <label for="sex">Sex</label>
+      <select id="sex" name="sex" required>
+        <option value="">-- Select --</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </div>
+    <div class="input-box">
+      <label for="idNumber">ID Number</label>
+      <input type="text" id="idNumber" name="idNumber" placeholder="Enter ID Number" required>
+    </div>
+  </div>
+
+  
+
+  <!-- Contact Info -->
+  <div class="form-row">
+    <div class="input-box">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter Email Address" required>
+    </div>
+    <div class="input-box">
+      <label for="address">Address</label>
+      <textarea id="address" name="address" rows="2" placeholder="Enter Complete Address" required></textarea>
+    </div>
+  </div>
+
+  <!-- Account Info -->
+  <div class="form-row">
+    <div class="input-box">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Choose Username" required>
+    </div>
+    <div class="input-box">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter Password" required>
+    </div>
+    <div class="input-box">
+      <label for="confirmPassword">Re-enter Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
+    </div>
+  </div>
+
+  <!-- Submit -->
+  <div class="form-actions">
+    <button type="submit" class="btn-submit">Register</button>
+  </div>
+</form>
+
+    </div>
+</body>
+</html>
