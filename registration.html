@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register | CSUCC Dormitory</title>
+  <link rel="stylesheet" href="styles/register.css">
+ 
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">CSUCC Dormitory</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Rooms</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="login.html" class="btn">Login</a>
+  </header>
+
+  <!-- Register Form -->
+  <div class="register-wrapper">
+    <form class="register-form">
+      <h2>Register</h2>
+      <div class="form-grid">
+        <div class="formgroup">
+          <label for="fname">FirstName <i class="required">*</i></label> 
+          <input type="text" id="fname" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+          <label for="mname">Middle Name </label>
+          <input type="text" id="mname" placeholder=" ">
+        </div>
+
+        <div class="formgroup">
+          <label for="lname">Last Name <i class="required">*</i></label>
+          <input type="text" id="lname" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+          <label for="extname">Extension Name </label>
+          <input type="text" id="extname" placeholder=" ">
+        </div>
+
+        <div class="formgroup">
+          <label for="age">Age <i class="required">*</i></label>
+          <input type="number" id="age" min="1" placeholder=" " required>
+        </div>
+
+        <div class="form-group">
+          <label for="gender"> Gender: <i class="required">*</i></label>
+          <input type="radio" name="Gender" value="Male"  > Male
+          <input type="radio" name="Gender" value="Female" > Female
+        </div>
+
+        <div class="formgroup">
+          <label for="username">Username <i class="required">*</i></label>
+          <input type="text" id="username" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+
+          
+          <label for="id_number">ID Number <i class="required">*</i></label>
+          <input type="text" id="id_number" placeholder=" " required>  
+       
+        </div>
+
+        <div class="formgroup">
+          <label for="email">Email <i class="required">*</i></label>
+          <input type="email" id="email" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+          <label for="password">Password <i class="required">*</i> </label>
+          <input type="password" id="password" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+          <label for="confirm">Confirm Password <i class="required">*</i></label>
+          <input type="password" id="confirm" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+          <label for="purok">Purok <i class="required">*</i></label>
+          <input type="text" id="purok" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+          <label for="barangay">Barangay <i class="required">*</i></label>
+          <input type="text" id="barangay" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+          <label for="municipality">Municipality <i class="required">*</i></label>
+          <input type="text" id="municipality" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+          <label for="province">Province <i class="required">*</i></label>
+          <input type="text" id="province" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+          <label for="country">Country <i class="required">*</i></label>
+          <input type="text" id="country" placeholder=" " required>
+        </div>
+
+        <div class="formgroup">
+          <label for="zip">ZIP Code <i class="required">*</i></label>
+          <input type="text" id="zip" placeholder=" " required>
+        </div>
+      </div>
+
+      <button type="submit">Register</button>
+      <p>Already have an account? <a href="login.html">Login here</a></p>
+    </form>
+  </div>
+
+  <footer>
+        <p>© 2025 CSUCC Dormitory Rental System | All Rights Reserved</p>
+
+  </footer>
+
+</body>
+</html>
