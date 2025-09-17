@@ -61,7 +61,7 @@
   display: flex;
   justify-content: space-between;
   align-items: stretch;
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
   background: #fff;
   padding: 20px;
@@ -105,7 +105,7 @@
 
     .formgroup input, 
     .formgroup select {
-      width: 100%;
+      width: 90%;
       padding: 6px;
       border: 1px solid #ccc;
       border-radius: 5px;
@@ -159,5 +159,5 @@
     padding: 1px;
     background: #004080;
     color: white;
-    margin-top: 5px;
+    margin-top: 15px;
     }

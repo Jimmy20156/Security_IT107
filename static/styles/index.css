@@ -1,5 +1,5 @@
 
-    * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -137,9 +137,10 @@ nav ul li a {
 /* Footer */
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 1px;
     background: #004080;
     color: white;
-    margin-top: 20px;
-}
+    margin-top: 10px;
+    }
+
 

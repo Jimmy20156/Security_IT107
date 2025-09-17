@@ -1,9 +1,9 @@
 
     * {
       margin: 0;
-      padding: 0;
+      /* padding: 0; */
       box-sizing: border-box;
-      font-family: "Segoe UI", Arial, sans-serif;
+      font-family: Arial, sans-serif;
     }
 
     body {
@@ -12,6 +12,7 @@
       background-size: cover;
       background-position: center;
       height: 100vh;
+
     }
 
     /* Header */
@@ -149,11 +150,10 @@
 
     footer {
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     background: #004080;
     color: white;
-    margin-top: 55px;
-    }
+    margin-top: 19px; }
 
   
     main {
@@ -161,11 +161,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 40px 20px;
+      padding:  228px;
     }
 
     .container {
       display: flex;
+      flex: 1;
       gap: 40px;
       max-width: 1000px;
       width: 100%;
