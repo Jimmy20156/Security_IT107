@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSUCC Dormitory | Home</title>
+  <link rel="stylesheet" href="/static/styles/dashboard.css">
+  
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Header -->
+    <header>
+      <div class="logo">CSUCC Dormitory</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+      <a href="login.html" class="btn">Login</a>
+    </header>
+
+    <!-- Slideshow -->
+    <div class="slideshow">
+      <img src="/static/images/q1.png" class="slide active">
+      <img src="/static/images/q2.png" class="slide">
+      <img src="/static/images/q3.png" class="slide">
+      <img src="/static/images/q4.png" class="slide">
+
+      <!-- Overlay Text -->
+      <div class="overlay">
+        <h1>Welcome to CSUCC Dormitory</h1>
+        <p>Manage your dormitory rentals, view invoices, and pay online with ease.</p>
+        <a href="login.html">Login Now</a>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 CSUCC Dormitory Rental System | All Rights Reserved</p>
+    </footer>
+  </div>
+
+  <script>
+    // Simple slideshow
+    let slides = document.querySelectorAll('.slide');
+    let index = 0;
+
+    function showSlide() {
+      slides.forEach((slide, i) => {
+        slide.classList.remove('active');
+        if (i === index) slide.classList.add('active');
+      });
+      index = (index + 1) % slides.length;
+    }
+
+    setInterval(showSlide, 4000); // change every 4s
+  </script>
+</body>
+</html>
